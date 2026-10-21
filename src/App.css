@@ -1,13 +1,28 @@
 h1{
 color: rgb(94, 90, 90);
+text-align: left;
+padding: 16px 16px;
 } 
 
 .App {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 30px;
+align-content: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 12px;
+  margin: 16px 16px;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+display: block;
+align-content: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
 }

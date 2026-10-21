@@ -11,6 +11,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
+text-align: left;
 color: rgb(60, 60, 60);
 }
 
@@ -20,6 +21,8 @@ color: rgb(60, 60, 60);
 }
 
 .Weather li {
+padding: 2 rem;
+text-align: left;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
