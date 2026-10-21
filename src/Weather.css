@@ -3,7 +3,7 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(93, 93, 93);
+  color: rgb(126, 125, 125);
 }
 
 .Weather h1 {
@@ -11,6 +11,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
+color: rgb(60, 60, 60);
 }
 
 .Weather ul {
@@ -23,4 +24,34 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+}
+
+header{
+background-image: linear-gradient(rgba(170, 170, 170, 0.9), rgba(255, 255, 255, 0.3)),
+url("https://t3.ftcdn.net/jpg/04/10/26/40/360_F_410264043_gXK6Ds8eJUOlSdD3Lp97BgIEOKxkXCl3.webp");
+background-repeat: no-repeat;
+background-size: cover;
+color: var(---background-color);
+text-align: center;
+padding: 200px 0px;
+}
+
+footer{
+color: var(---background-color);
+}
+
+@media (max-width: 768px) {
+  .Weather {
+    padding: 8px;
+  }
+
+  .Weather h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .Weather li {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

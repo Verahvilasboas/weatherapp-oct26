@@ -8,7 +8,10 @@ export default function App() {
   return (
     <div className="App">
 <div className="container">
-<Weather />
+<header>
+<h1>Weather App</h1>
+
+<Weather /> </header>   
     <footer>
 this project was coded by Vera Vilas Boas <a href="https://github.com/veravilasboas" target="_blank" rel="noopener noreferrer">GitHub</a>
  <br></br>
@@ -20,7 +23,7 @@ and is
 </footer>
 
 </div>
-    </div>
+</div>
   );
 }
 
