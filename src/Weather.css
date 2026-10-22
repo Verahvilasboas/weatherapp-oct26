@@ -5,6 +5,8 @@
   padding: 16px;
   border-radius: 10px;
   color: rgb(126, 125, 125);
+  background-color: rgba(255, 255, 255, 0.226);
+  text-align: left;
 }
 
 =======
@@ -13,7 +15,9 @@
   font-size: 38px;
   color: rgb(94, 90, 90);
   margin: 20px 0 0 0;
-  padding: 16px;
+  line-height: 29px;
+text-align: left;
+color: rgb(60, 60, 60);
 }
 
 .Weather ul {
@@ -24,34 +28,24 @@
   font-size: 20px;
 }
 
-.Weather .temperature {
-  font-size: 80px;
-  line-height: 16px;
-  margin-left: 10px;
+.Weather li {
+padding: 2 rem;
+text-align: left;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
 }
-
-.Weather .unit {
-  font-size: 22px;
-  align-self: flex-start;
-  margin-top: 8px;
-}
-
 .Weather canvas {
   margin: 10px auto;
 }
 
-header{
-background-image: linear-gradient(rgba(170, 170, 170, 0.9), rgba(255, 255, 255, 0.3)),
-url("https://t3.ftcdn.net/jpg/04/10/26/40/360_F_410264043_gXK6Ds8eJUOlSdD3Lp97BgIEOKxkXCl3.webp");
-background-repeat: no-repeat;
-background-size: cover;
-color: var(---background-color);
-text-align: center;
-padding: 200px 0px;
-}
-
-footer{
-color: var(---background-color);
+header {
+  background-image: linear-gradient(rgba(170, 170, 170, 0.9), rgba(255, 255, 255, 0.3)),
+    url("https://t3.ftcdn.net/jpg/04/10/26/40/360_F_410264043_gXK6Ds8eJUOlSdD3Lp97BgIEOKxkXCl3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 40px;
 }
 
 @media (max-width: 768px) {
@@ -60,31 +54,13 @@ color: var(---background-color);
   }
 
   .Weather h1 {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 24px;
   }
 
   .Weather li {
     font-size: 14px;
-    line-height: 16px;
-  }
-
-<<<<<<< Updated upstream
-  .Weather .temperature {
-    font-size: 56px;
+    line-height: 18px;
   }
 
 }
 
-body {
-  background-color: #ffffffa4;
- background-image: url("https://i.pinimg.com/originals/28/cb/55/28cb55069f8b8911fe8ba8048b933028.gif");
-  background-repeat: no-repeat;
-    background-size: cover;
- font-family:'Roboto', sans-serif;
- 
-}
-=======
-}
-
->>>>>>> Stashed changes
