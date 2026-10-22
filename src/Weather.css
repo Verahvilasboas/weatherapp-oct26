@@ -36,9 +36,26 @@ text-align: left;
 }
 
 header {
-  background-image: linear-gradient(rgba(170, 170, 170, 0.9), rgba(255, 255, 255, 0.3)),
-    url("https://t3.ftcdn.net/jpg/04/10/26/40/360_F_410264043_gXK6Ds8eJUOlSdD3Lp97BgIEOKxkXCl3.webp");
+  background-image: linear-gradient(rgba(70, 120, 200, 0.55), rgba(150, 190, 240, 0.35)),
+  url("https://t3.ftcdn.net/jpg/04/10/26/40/360_F_410264043_gXK6Ds8eJUOlSdD3Lp97BgIEOKxkXCl3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 40px;
+}
+
+body {
+  background-color: #ffffffa4;
+ background-image: url("https://i.pinimg.com/originals/28/cb/55/28cb55069f8b8911fe8ba8048b933028.gif");
+  background-repeat: no-repeat;
+    background-size: cover;
+ font-family:'Roboto', sans-serif;
+ 
+}
+body {
+  background-color: #ffffffa4;
+ background-image: url("https://i.pinimg.com/originals/28/cb/55/28cb55069f8b8911fe8ba8048b933028.gif");
+  background-repeat: no-repeat;
+    background-size: cover;
+ font-family:'Roboto', sans-serif;
+ 
 }
