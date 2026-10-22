@@ -15,8 +15,7 @@ export default function App() {
     <footer>
 this project was coded by Vera Vilas Boas <a href="https://github.com/veravilasboas" target="_blank" rel="noopener noreferrer">GitHub</a>
  <br></br>
-and is 
-<a href="https://github.com/veravilasboas" target="_blank" rel="noopener noreferrer">GitHub</a>
+
 
 </footer>
 
