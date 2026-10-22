@@ -1,20 +1,11 @@
-<<<<<<< Updated upstream
+
 .Weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #dadde10a;
   padding: 16px;
   border-radius: 10px;
-  color: rgb(126, 125, 125);
   background-color: rgba(255, 255, 255, 0.226);
-  text-align: left;
-<<<<<<< HEAD
-=======
+  text-align: left; }
 
->>>>>>> parent of 061c880 (Revert "Update Weather.css")
-}
 
-=======
->>>>>>> Stashed changes
 .Weather h1 {
   font-size: 38px;
   color: rgb(94, 90, 90);
@@ -51,20 +42,3 @@ header {
   background-size: cover;
   padding: 80px 40px;
 }
-
-@media (max-width: 768px) {
-  .Weather {
-    padding: 8px;
-  }
-
-  .Weather h1 {
-    font-size: 24px;
-  }
-
-  .Weather li {
-    font-size: 14px;
-    line-height: 18px;
-  }
-
-}
-
